@@ -1,0 +1,11 @@
+#bag {
+    width: 40px;
+    height: auto;
+}
+
+#cartwidget a {
+    color: aqua;
+    text-decoration: none; 
+    cursor: pointer;
+    font-size: 25px;
+}
