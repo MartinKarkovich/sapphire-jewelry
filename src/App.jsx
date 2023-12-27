@@ -1,13 +1,14 @@
 import './App.css'
+import { BrowserRouter } from 'react-router-dom'
+import Router from './pages/router'
 import NavBar from './components/NavBar/NavBar'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <NavBar/>
-      <ItemListContainer/>
-    </div>
+      <Router/>
+    </BrowserRouter>
   )
 }
 
