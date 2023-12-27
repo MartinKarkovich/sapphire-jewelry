@@ -1,0 +1,202 @@
+[
+    {
+        "id":"b1",
+        "name":"bracelet1",
+        "price":300,
+        "image_url":"/mocked-products-pictures/pulsera1.png",
+        "stock": 20,
+        "category": "bracelet"
+    },
+    {
+        "id":"b2",
+        "name":"bracelet2",
+        "price":400,
+        "image_url":"/mocked-products-pictures/pulsera2.png",
+        "stock": 14,
+        "category": "bracelet"
+    },
+    {
+        "id":"b3",
+        "name":"bracelet3",
+        "price":1000,
+        "image_url":"/mocked-products-pictures/pulsera3.png",
+        "stock": 12,
+        "category": "bracelet"
+    },
+    {
+        "id":"b4",
+        "name":"bracelet4",
+        "price":50,
+        "image_url":"/mocked-products-pictures/pulsera4.png",
+        "stock": 230,
+        "category": "bracelet"
+    },
+    {
+        "id":"b5",
+        "name":"bracelet5",
+        "price":600,
+        "image_url":"/mocked-products-pictures/pulsera5.png",
+        "stock": 2,
+        "category": "bracelet"
+    },
+    {
+        "id":"c1",
+        "name":"charm1",
+        "price":300,
+        "image_url":"/mocked-products-pictures/dije1.png",
+        "stock": 20,
+        "category": "charm"
+    },
+    {
+        "id":"c2",
+        "name":"charm2",
+        "price":400,
+        "image_url":"/mocked-products-pictures/dije2.png",
+        "stock": 14,
+        "category": "charm"
+    },
+    {
+        "id":"c3",
+        "name":"charm3",
+        "price":1000,
+        "image_url":"/mocked-products-pictures/dije3.png",
+        "stock": 12,
+        "category": "charm"
+    },
+    {
+        "id":"c4",
+        "name":"charm4",
+        "price":50,
+        "image_url":"/mocked-products-pictures/dije4.png",
+        "stock": 230,
+        "category": "charm"
+    },
+    {
+        "id":"c5",
+        "name":"charm5",
+        "price":600,
+        "image_url":"/mocked-products-pictures/dije5.png",
+        "stock": 2,
+        "category": "charm"
+    },
+    {
+        "id":"e1",
+        "name":"earring1",
+        "price":300,
+        "image_url":"/mocked-products-pictures/aro1.png",
+        "stock": 20,
+        "category": "earring"
+    },
+    {
+        "id":"e2",
+        "name":"earring2",
+        "price":400,
+        "image_url":"/mocked-products-pictures/aro2.png",
+        "stock": 14,
+        "category": "earring"
+    },
+    {
+        "id":"e3",
+        "name":"earring3",
+        "price":1000,
+        "image_url":"/mocked-products-pictures/aro3.png",
+        "stock": 12,
+        "category": "earring"
+    },
+    {
+        "id":"e4",
+        "name":"earring4",
+        "price":50,
+        "image_url":"/mocked-products-pictures/aro4.png",
+        "stock": 230,
+        "category": "earring"
+    },
+    {
+        "id":"e5",
+        "name":"earring5",
+        "price":600,
+        "image_url":"/mocked-products-pictures/aro5.png",
+        "stock": 2,
+        "category": "earring"
+    },
+    {
+        "id":"r1",
+        "name":"ring1",
+        "price":300,
+        "image_url":"/mocked-products-pictures/anillo1.png",
+        "stock": 20,
+        "category": "ring"
+    },
+    {
+        "id":"r2",
+        "name":"ring2",
+        "price":400,
+        "image_url":"/mocked-products-pictures/anillo2.png",
+        "stock": 14,
+        "category": "ring"
+    },
+    {
+        "id":"r3",
+        "name":"ring3",
+        "price":1000,
+        "image_url":"/mocked-products-pictures/anillo3.png",
+        "stock": 12,
+        "category": "ring"
+    },
+    {
+        "id":"r4",
+        "name":"ring4",
+        "price":50,
+        "image_url":"/mocked-products-pictures/anillo4.png",
+        "stock": 230,
+        "category": "ring"
+    },
+    {
+        "id":"r5",
+        "name":"ring5",
+        "price":600,
+        "image_url":"/mocked-products-pictures/anillo5.png",
+        "stock": 2,
+        "category": "ring"
+    },
+    {
+        "id":"w1",
+        "name":"watch1",
+        "price":300,
+        "image_url":"/mocked-products-pictures/reloj1.png",
+        "stock": 20,
+        "category": "watch"
+    },
+    {
+        "id":"w2",
+        "name":"watch2",
+        "price":400,
+        "image_url":"/mocked-products-pictures/reloj2.png",
+        "stock": 14,
+        "category": "watch"
+    },
+    {
+        "id":"w3",
+        "name":"watch3",
+        "price":1000,
+        "image_url":"/mocked-products-pictures/reloj3.png",
+        "stock": 12,
+        "category": "watch"
+    },
+    {
+        "id":"w4",
+        "name":"watch4",
+        "price":50,
+        "image_url":"/mocked-products-pictures/reloj4.png",
+        "stock": 230,
+        "category": "watch"
+    },
+    {
+        "id":"w5",
+        "name":"watch5",
+        "price":600,
+        "image_url":"/mocked-products-pictures/reloj5.png",
+        "stock": 2,
+        "category": "watch"
+    }
+]

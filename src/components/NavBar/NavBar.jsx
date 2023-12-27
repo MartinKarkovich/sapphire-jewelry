@@ -1,18 +1,19 @@
 import "./NavBar.css"
-import CartWidget from "./CartWidget"
+import CartWidget from "./CartWidget/CartWidget"
+import { Link } from "react-router-dom"
 
 const NavBar = () => {
   return (
-    <nav id="navbar">
-      <a href="#"><img src="/icons/sapphire.png"/></a>
+    <nav id="nav-bar">
+      <Link to={'/'}><img src="/icons/sapphire.png"/></Link>
       <ul>
-        <li><a href="#">Relojes</a></li>
-        <li><a href="#">Anillos</a></li>
-        <li><a href="#">Pulseras</a></li>
-        <li><a href="#">Dijes</a></li>
-        <li><a href="#">Aros</a></li>
+        <Link to={'/category/watch'}><li>RELOJES</li></Link>
+        <Link to={'/category/ring'}><li>ANILLOS</li></Link>
+        <Link to={'/category/bracelet'}><li>PULSERAS</li></Link>
+        <Link to={'/category/charm'}><li>DIJES</li></Link>
+        <Link to={'/category/earring'}><li>AROS</li></Link>
       </ul>
-      <CartWidget id="cartwidget" quantity={1}/>
+      <CartWidget quantity={1}/>
     </nav>
   )
 }
