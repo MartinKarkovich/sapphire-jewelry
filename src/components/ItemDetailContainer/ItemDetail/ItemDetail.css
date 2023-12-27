@@ -1,0 +1,40 @@
+#item-detail {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    min-height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#item-detail img{
+    min-width: 600px;
+    min-height: 600px;
+    border: 2px black solid;
+}
+
+#item-detail ul li{
+    color:white;
+    font-size: 30px;
+    list-style: none;
+}
+
+#item-detail ul{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: darkblue;
+    border: 2px black solid;
+    align-items: center;
+    gap: 3px;
+    font-size: 30px;
+}
+
+#item-detail ul button{
+    font: bold;  
+    margin-top: 20px;
+    background-color: white;
+    color: darkblue;
+    padding: 10px 20px;
+    border: 2px black solid;
+}
