@@ -1,4 +1,5 @@
 import "./ItemDetailContainer.css"
+import { Navigate } from "react-router-dom"
 import ItemDetail from "./ItemDetail/ItemDetail"
 import getProducts from "../../utils/promises/getProducts"
 import { useEffect, useState } from "react"
@@ -19,9 +20,15 @@ const ItemDetailContainer = () => {
   }, [id])
 
   return (
-    <div id="item-detail-container">
-      <ItemDetail product={product}/>
-    </div>
+    <>
+      { product ?
+      <div id="item-detail-container">
+        <ItemDetail product={product}/>
+      </div> :
+        <Navigate to={'/'}/>
+      }
+    </>
+
   )
 }
 export default ItemDetailContainer
