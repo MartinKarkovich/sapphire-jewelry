@@ -15,7 +15,6 @@
 
 #item-detail ul li{
     color:white;
-    font-size: 30px;
     list-style: none;
 }
 
@@ -31,10 +30,17 @@
 }
 
 #item-detail ul button{
-    font: bold;  
+    font-size: 18px;
+    font-weight: bold;
     margin-top: 20px;
     background-color: white;
     color: darkblue;
     padding: 10px 20px;
     border: 2px black solid;
+    cursor: pointer;
+}
+
+#item-detail ul button:hover{
+    scale: 1.1;
+    transition: all 0.1s;
 }
